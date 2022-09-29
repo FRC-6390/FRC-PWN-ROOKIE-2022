@@ -1,0 +1,55 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "frc.robot.Test",
+      "projectName": "FRC-Season-2022"
+    },
+    {
+      "type": "java",
+      "name": "Launch JsonManager",
+      "request": "launch",
+      "mainClass": "frc.robot.utils.json.JsonManager",
+      "projectName": "FRC-Season-2022"
+    },
+    {
+      "type": "java",
+      "name": "Launch PID",
+      "request": "launch",
+      "mainClass": "frc.robot.utils.PID",
+      "projectName": "FRC-Season-2022"
+    },
+    {
+      "type": "java",
+      "name": "Launch Robot",
+      "request": "launch",
+      "mainClass": "frc.robot.Robot",
+      "projectName": "FRC-Season-2022"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "frc.robot.Main",
+      "projectName": "FRC-Season-2022"
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib Desktop Debug",
+      "request": "launch",
+      "desktop": true
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib roboRIO Debug",
+      "request": "launch",
+      "desktop": false
+    }
+  ]
+}
