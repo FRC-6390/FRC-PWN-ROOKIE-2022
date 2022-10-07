@@ -8,6 +8,7 @@ import frc.robot.Constants.CONTROLLER;
 import frc.robot.Constants.SHOOTER;
 import frc.robot.Constants.SWERVE;
 import frc.robot.commands.AutoElevator;
+import frc.robot.commands.BackwardCommand;
 import frc.robot.commands.DesiredPositionCommand;
 import frc.robot.commands.DriveCommand;
 import frc.robot.commands.ElevatorCommand;
@@ -100,7 +101,7 @@ public class RobotContainer {
 
   //sets the auto command
   public Command getAutoCommand(){
-    return new DesiredPositionCommand(driveTrain, Constants.AUTO.AUTO_1);
+    return new BackwardCommand(driveTrain, Constants.AUTO.AUTO_1);
   }
 
 }

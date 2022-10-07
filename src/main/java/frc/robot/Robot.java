@@ -57,7 +57,7 @@ public class Robot extends TimedRobot {
   public void autonomousInit() {
     //starts auto routine
     RobotContainer.driveTrain.reset(true);
-    ClimbArms.open();
+    //ClimbArms.open();
     CommandScheduler.getInstance().schedule(container.getAutoCommand());
   }
 
